@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Account verwijderen — VindMijnKrab</title>
+  <meta name="description" content="Zo verwijder je je VindMijnKrab-account en bijbehorende gegevens.">
+  <style>
+    :root {
+      --bg: #f6eee1; --fg: #3f2f1d; --muted: #6b5842; --line: rgba(63,47,29,.14); --accent: #aa182c;
+      --head: Georgia, "Times New Roman", serif;
+      --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#1f1810; --fg:#f3e9da; --muted:#b9ab97; --line:rgba(243,233,218,.15); --accent:#e76b7c; color-scheme: dark; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); line-height: 1.6; font-size: 16px; -webkit-font-smoothing: antialiased; }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 44px 20px 72px; }
+    header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 28px; }
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand .c { font-size: 26px; }
+    h1 { font-family: var(--head); font-weight: 700; font-size: 30px; margin: 0; }
+    h2 { font-family: var(--head); font-weight: 700; font-size: 19px; margin: 32px 0 8px; }
+    p { margin: 0 0 12px; }
+    ol, ul { margin: 0 0 12px; padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    .note { color: var(--muted); font-size: 14px; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><span class="c">🦀</span><h1>Account verwijderen</h1></div>
+    </header>
+
+    <p>Je kunt je VindMijnKrab-account en alle bijbehorende gegevens op elk moment zelf verwijderen. Dit kan niet ongedaan worden gemaakt.</p>
+
+    <h2>In de app (snelst)</h2>
+    <ol>
+      <li>Open VindMijnKrab en ga naar <strong>Instellingen</strong>.</li>
+      <li>Kies <strong>Account verwijderen</strong>.</li>
+      <li>Bevestig. Je account en gegevens worden direct verwijderd.</li>
+    </ol>
+
+    <h2>Geen toegang meer tot de app?</h2>
+    <p>Mail naar <a href="mailto:privacy@vindmijnkrab.nl">privacy@vindmijnkrab.nl</a> vanaf het e-mailadres van je account, of met je gebruikersnaam erbij. We verwijderen je account en gegevens dan binnen 30 dagen.</p>
+
+    <h2>Wat we verwijderen</h2>
+    <ul>
+      <li>Je profiel: gebruikersnaam, e-mailadres en wachtwoord (hash).</li>
+      <li>Je poppetje (avatar-instellingen).</li>
+      <li>Je vrienden, gevolgde bands en verzoeken.</li>
+      <li>Je locatiegegevens.</li>
+    </ul>
+    <p class="note">Je live locatie wordt sowieso elke nacht om 02:00 automatisch gewist; bij het verwijderen van je account verdwijnt al het bovenstaande direct. Er worden geen gegevens bewaard na verwijdering.</p>
+
+    <footer>VindMijnKrab · privacy@vindmijnkrab.nl</footer>
+  </div>
+</body>
+</html>
